@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+    <property>
+        <name>writer_new_user</name>
+        <value>analystic.mr.nu.NewUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_new_user</name>
+        <value>analystic.mr.nu.NewBrowserUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_active_user</name>
+        <value>analystic.mr.au.ActiveUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_active_user</name>
+        <value>analystic.mr.au.ActiveUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_active_member</name>
+        <value>analystic.mr.am.ActiveMemberWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_active_member</name>
+        <value>analystic.mr.am.ActiveMemberWriter</value>
+    </property>
+
+    <property>
+        <name>writer_new_member</name>
+        <value>analystic.mr.nm.NewMemberWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_new_member</name>
+        <value>analystic.mr.nm.NewMemberWriter</value>
+    </property>
+
+    <property>
+        <name>writer_member_info</name>
+        <value>analystic.mr.nm.NewMemberWriter</value>
+    </property>
+
+
+    <property>
+        <name>writer_session</name>
+        <value>analystic.mr.session.SessionWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_session</name>
+        <value>analystic.mr.session.SessionWriter</value>
+    </property>
+
+    <property>
+        <name>writer_hourly_active_user</name>
+        <value>analystic.mr.au.ActiveUserWriter</value>
+    </property>
+
+</configuration>
